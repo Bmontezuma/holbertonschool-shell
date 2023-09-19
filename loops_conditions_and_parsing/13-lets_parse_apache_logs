@@ -1,5 +1,5 @@
-#1/usr/bin/env bash
-# Will display content in file /etc/passwd about user.
+#!/usr/bin/env bash
+# Displays content of file /ect/passwd 
 
 input="/etc/passwd"
 while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
